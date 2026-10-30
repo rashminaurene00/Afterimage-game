@@ -1,0 +1,4 @@
+build/
+*.exe
+sprites_procedural/
+selftest_*.png

@@ -1,0 +1,29 @@
+AFTERIMAGE — Windows release
+
+To play, double-click afterimage.exe. Keep the DLL files and the assets folder
+in this same directory; the executable needs them to start and load the game.
+
+Controls:
+  WASD / arrow keys  Move
+  Shift              Run (loud; drains stamina)
+  E                  Interact / hide / leave hiding place
+  Q                  Show the Afterimage clues when available
+  J                  Review the case file and objective
+  Esc / P             Pause
+  F1                 Developer AI diagnostics
+
+The adaptive AI profile is saved as afterimage_ai_profile.dat beside the game.
+Recent movement history is saved in afterimage_movement_history.dat. The Tenant
+can replay up to the last two minutes of your route in each area, including on
+later visits after closing and reopening the game. It is present in all four
+areas; in the apartment it wakes after 40 seconds.
+For a fresh AI profile while keeping progress and settings, launch from a
+terminal in this directory with: afterimage.exe --fresh-ai
+
+When caught, the Tenant's attack ends the run. A full-screen creature face and
+horror sound play for five seconds before retry choices appear. Walking has
+soft footfalls; running creates louder clatter and draws the Tenant. Breathing
+becomes audible when stamina is low or the Tenant is chasing. Keep system audio
+enabled to hear the effects.
+
+To run the built-in checks instead of starting a game: afterimage.exe --selftest

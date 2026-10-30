@@ -1,0 +1,11 @@
+# Generated build folders
+afterimage-build-debug/
+afterimage-build/
+
+# IDE files
+.vs/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
